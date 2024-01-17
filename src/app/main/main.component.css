@@ -1,0 +1,329 @@
+.blue-box {
+  background-color: #14133b;
+  color: #fff;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  height: 80% !important;
+  width: 100% !important;
+  top: 10%;
+  left: 0;
+}
+
+.box-data {
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.comp-data {
+  padding: 0;
+  background-color: #f29111;
+  border-radius: 20px;
+  color: #fff;
+  margin-bottom: 1.6em;
+  text-align: center;
+}
+.tell-btn {
+  background-color: #f29111;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  border-radius: 4.5px;
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 70px;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+#myCarousel {
+  margin-top: 20px;
+}
+
+.carousel-inner {
+  position: relative;
+  width: 100%;
+  height: 40% !important;
+  overflow: hidden;
+}
+
+#hover-card1:hover {
+  background-color: orange;
+  cursor: pointer;
+}
+
+#hover-card2:hover {
+  background-color: blue;
+  cursor: pointer;
+}
+
+#hover-card3:hover {
+  background-color: purple;
+  cursor: pointer;
+}
+
+#hover-card4:hover {
+  background-color: #14133b;
+  cursor: pointer;
+}
+
+#hover-card5:hover {
+  background-color: green;
+  cursor: pointer;
+}
+
+#hover-card1:hover .card-title,
+#hover-card1:hover .card-text {
+  color: white;
+}
+
+#hover-card2:hover .card-title,
+#hover-card2:hover .card-text {
+  color: white;
+}
+
+#hover-card3:hover .card-title,
+#hover-card3:hover .card-text {
+  color: white;
+}
+
+#hover-card4:hover .card-title,
+#hover-card4:hover .card-text {
+  color: white;
+}
+
+#accordion .card {
+  border: none;
+  border-radius: 0;
+}
+
+#accordion .card-header {
+  background-color: transparent;
+  border: none;
+}
+
+#accordion .card-body {
+  border-top: 1px solid rgba(0, 0, 0, 0.125);
+}
+.owl-carousel {
+  height: 300px;
+  position: absolute;
+}
+
+.flex-container {
+  display: flex;
+  margin-top: 100px;
+  justify-content: center;
+  flex-direction: column;
+  background-color: transparent;
+  background-image: linear-gradient(180deg, #fff 0, #d7dbed 100%);
+}
+
+.image-container {
+  width: 91%;
+  height: 377px;
+  margin-right: 20px;
+  margin-top: 10px;
+}
+
+.text-container {
+  width: 40%;
+  text-align: left;
+  padding: 20px;
+}
+
+@media (min-width: 768px) {
+  .flex-container {
+    flex-direction: row;
+  }
+
+  .image-container {
+    width: 40%;
+  }
+
+  .text-container {
+    width: 50%;
+  }
+}
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  width: 15rem;
+  margin: 0.5em;
+  border-radius: 10px;
+  box-shadow: 0 0 29px -10px #b7bbcc;
+  margin: 10px;
+  --e-column-margin-right: 10px;
+  --e-column-margin-left: 10px;
+  padding: 30px;
+  transition: box-shadow 0.3s;
+}
+
+.card-img-top {
+  width: 30%;
+}
+
+.card-body {
+  position: relative;
+  width: 100%;
+  flex-wrap: wrap !important;
+  align-content: flex-start !important;
+  padding: 0 !important;
+}
+
+.card-title {
+  font-size: 20px;
+  font-weight: 600;
+}
+.card:hover {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+.read-more {
+  position: absolute;
+  bottom: -12px;
+  left: -1px;
+  color: orange;
+  text-decoration: none;
+  font-weight: bold;
+  z-index: 1;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.tick {
+  color: orange;
+  margin-right: 10px;
+}
+
+.custom-card {
+  width: calc(50% - 1em);
+  max-width: 30rem;
+  display: flex;
+  border-radius: 10px;
+  margin-top: 30px;
+  transition: background-color 0.3s;
+  margin-right: 1em;
+  padding: 25px;
+  border-radius: 5px 5px 5px 5px;
+  box-shadow: 0 0 18px 0 rgba(193, 193, 193, 0.5);
+}
+
+.custom-card:last-child {
+  margin-right: 0;
+}
+
+.custom-card img {
+  width: 5em;
+  height: 4em;
+  position: relative;
+  display: block;
+}
+
+.custom-card-body {
+  position: relative;
+  width: 100%;
+  flex-wrap: wrap !important;
+  align-content: flex-start !important;
+  padding: 0 !important;
+}
+
+.custom-card-title,
+.custom-card-text {
+  color: black;
+  transition: color 0.3s;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.custom-cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  justify-content: center;
+}
+
+.custom-card:hover {
+  background-color: #333;
+}
+
+.custom-card:hover .custom-card-title,
+.custom-card:hover .custom-card-text {
+  color: white;
+}
+.carousel-container {
+  display: flex;
+  overflow: hidden;
+}
+
+.carousel-item {
+  flex: 0 0 33.33%;
+  position: relative;
+  cursor: pointer;
+}
+
+img {
+  width: 80%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.carousel-item:hover img {
+  transform: scale(1.1);
+}
+
+.custom-owl-carousel {
+  width: 50%;
+  height: 50%;
+}
+
+.custom-owl-carousel .owl-stage {
+  display: flex;
+}
+
+.custom-owl-carousel .owl-item {
+  width: 100%;
+}
+.pmd-accordion .card {
+  border: none;
+}
+
+.pmd-accordion .card-header {
+  border-bottom: none;
+}
+
+.pmd-accordion .card-body {
+  border-top: none;
+}
+
+.carousel-box {
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  overflow: hidden;
+  height: 120px;
+  margin-top: 0px;
+}
+.carousel-box1 {
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  overflow: hidden;
+  height: 370px;
+  margin-top: 0px;
+  width: 70%;
+  margin-left: 13%;
+}

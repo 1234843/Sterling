@@ -1,0 +1,144 @@
+
+.blue-box {
+  background-color: #14133b;
+  color: #fff;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  height: 80%;
+  width: 100%;
+  top: 10%;
+  left: 0;
+}
+
+.box-data {
+  width: 100%; 
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+.comp-data {
+  padding: 0;
+  background-color: #f29111;
+  border-radius: 20px;
+  color: #fff;
+  margin-bottom: 1.6em;
+  text-align: center;
+}
+
+
+footer {
+  background-color: #14133b;
+  color: white;
+  padding: 20px 0;
+  position: relative;
+  margin-top: 10em; 
+}
+
+.social-icons a {
+  color: white;
+  margin: 0 10px;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.footer-links {
+  display: flex;
+  align-items: center;
+}
+
+.combined-column {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+.combined-column > div {
+  margin-bottom: 20px;
+}
+
+.quick-links ul,
+.services ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.quick-links li,
+.services li {
+  margin-bottom: 10px;
+}
+
+.quick-links a,
+.services a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.quick-links a:hover,
+.services a:hover {
+  color: orange;
+}
+
+.contact-info {
+  justify-content: flex-end;
+}
+
+.contact-info .email,
+.contact-info .phone {
+  margin-left: 20px;
+}
+
+.contact-info .email h4,
+.contact-info .phone h4 {
+  color: white;
+  margin-bottom: 5px;
+}
+
+.contact-info .email p,
+.contact-info .phone p {
+  margin: 5px 0;
+  color: orange;
+}
+
+
+.content-box {
+  position: absolute;
+  top: -16%; 
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80%; 
+  height: auto; 
+  display: flex;
+  color: #fff;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(179deg, #14133b 48%, #f2911154 100%);
+  padding: 20px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, .5);
+  border-radius: 20px;
+}
+
+.talk-button {
+  background-color: orange;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.text-in-box {
+  text-align: center;
+  color: #fff;
+  width: 100%;
+  max-width: 100%;
+}
+
+@media (max-width: 768px) {
+  .content-box {
+    width: 100%;
+  }
+}

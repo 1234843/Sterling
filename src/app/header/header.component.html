@@ -1,0 +1,62 @@
+<header>
+  <div class="logo">
+    <img
+      class="logo-img"
+      src="../../assets/Screenshot 2024-01-16 at 1.13.41 PM.png"
+    />
+  </div>
+  <nav>
+    <ul class="text d-sm-none d-flex d-lg-flex d-md-flex">
+      <li><a routerLink="/">About Us</a></li>
+      <li>
+        <a routerLink="/about">Services</a
+        ><i class="fas fa-chevron-down text-black-2"></i>
+      </li>
+      <li>
+        <a routerLink="/contact">Technologies</a
+        ><i class="fas fa-chevron-down text-black-2"></i>
+      </li>
+      <li><a routerLink="/about">Engagement Models</a></li>
+      <li><a routerLink="/contact">Blog</a></li>
+      <li><button class="quote">Get a Quote</button></li>
+    </ul>
+  </nav>
+</header>
+
+<div id="mySidenav" class="sidenav">
+  <a class="closebtn" (click)="closeNav()">&times;</a>
+  <ul class="text d-sm-block">
+    <li><a routerLink="/">About Us</a></li>
+
+    <ul>
+      <li
+        (mouseenter)="showDropdown = true"
+        (mouseleave)="showDropdown = false"
+      >
+        <a routerLink="/about">Services</a>
+        <i class="fas fa-chevron-down text-black-2"></i>
+
+        <ul *ngIf="showDropdown">
+          <li><a routerLink="/service1">Service 1</a></li>
+          <li><a routerLink="/service2">Service 2</a></li>
+          <li><a routerLink="/service3">Service 3</a></li>
+        </ul>
+      </li>
+    </ul>
+
+    <li>
+      <a routerLink="/contact">Technologies</a
+      ><i class="fas fa-chevron-down text-black-2"></i>
+    </li>
+    <li><a routerLink="/about">Engagement Models</a></li>
+    <li><a routerLink="/contact">Blog</a></li>
+    <li><button class="quote">Get a Quote</button></li>
+  </ul>
+</div>
+
+<span
+  class="d-md-none d-lg-none d-sm-block d-none"
+  style="font-size: 30px; cursor: pointer"
+  (click)="openNav()"
+  >&#9776; open</span
+>

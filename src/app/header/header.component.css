@@ -1,0 +1,100 @@
+
+
+header {
+  background-color: #fff;
+  color: black;
+  padding: 0 130px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.logo {
+  font-size: 1.5em;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.logo-img{
+  width: 30%;
+  /* margin-left: 7em; */
+}
+
+.quote {
+  background-color: #F29111;
+    font-family: Roboto;
+    color: #fff;
+    font-family: Lato,sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    font-size: .875rem;
+    line-height: 1em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border: 1px solid;
+    border-radius: 4.5px;
+    padding: 10px;
+    margin-top: -20px;
+}
+.text {
+  font-size: 15px;
+    font-weight: 700;
+    color: #000;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
